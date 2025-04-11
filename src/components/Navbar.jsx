@@ -9,7 +9,7 @@ const Navbar = () => {
      const [isOpen, setIsOpen] = useState(false);
      const [msgNotifation, setMsgNotifation] = useState(false);
      return (
-          <div className='fixed top-0  w-full bg-white z-50 relative'>
+          <div className='fixed top-0  w-full bg-white z-50  shadow-md'>
                <div className='flex justify-between border items-center'>
                     {/* Left Side */}
                     <div className='flex'>
@@ -18,10 +18,10 @@ const Navbar = () => {
                          </div>
                          <div className='mx-6 mt-2 relative'>
                               <input
-                                   className='border rounded-full px-6 py-1 bg-gray-100 focus:outline-none'
+                                   className='border rounded-full px-6 py-1 mt-2 bg-gray-100 focus:outline-none'
                                    placeholder='search....'
                               />
-                              <FaSearch className='text-gray-300 absolute top-3 right-4' />
+                              <FaSearch className='text-gray-300 absolute top-4 right-4' />
                          </div>
                     </div>
 
